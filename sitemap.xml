@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>http://www.example.com/</loc>
+      <lastmod>2014-04-23</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.example.com/index.php?page=club</loc>
+      <changefreq>yearly</changefreq>
+	  <priority>0.8</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=tarif</loc>
+      <changefreq>yearly</changefreq>
+	  <priority>1</priority>
+   </url>
+
+   <url>
+      <loc>http://www.example.com/index.php?page=presentation</loc>
+	  <priority>0.3</priority>
+   </url>
+
+   <url>
+      <loc>http://www.example.com/index.php?page=autres</loc>
+	  <priority>0.3</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=valeurs</loc>
+	  <priority>0.3</priority>
+   </url>
+
+   <url>
+      <loc>http://www.example.com/index.php?page=dispo</loc>
+	  <priority>0.3</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=qui_peut</loc>
+	  <priority>0.3</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=aikido_femmes</loc>
+	  <priority>0.3</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=aikido_enfants</loc>
+	  <priority>0.3</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=aikido_veterans</loc>
+	  <priority>0.3</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=aikido_handicap</loc>
+	  <priority>0.3</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=bienfaits_aikido</loc>
+	  <priority>0.5</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=videos</loc>
+	  <priority>0.3</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=debutant</loc>
+	  <priority>0.5</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=news</loc>
+	  <priority>0.5</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=stages</loc>
+	  <priority>0.5</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=photos</loc>
+	  <priority>0.5</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=documents</loc>
+	  <priority>0.3</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=forum</loc>
+	  <priority>0.3</priority>
+   </url>
+   
+   <url>
+      <loc>http://www.example.com/index.php?page=liens</loc>
+	  <priority>0.3</priority>
+   </url>
+
+</urlset>

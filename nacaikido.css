@@ -1,0 +1,316 @@
+@media (min-width: 768px) {
+    .navbar {
+            background: url('img/headerbgdark.png');
+            min-height: 120px;
+    }
+    .nav {
+            margin-top: 65px; /* this is a faux center fix for the nav options - adjust this if you wish to change the logo height or the font of the menu items */
+    }
+    body {
+            margin-top: 125px; /* adjust this if the height of the menu bar changes */
+    }
+    body > .container {
+    overflow:auto;
+    padding-bottom: 200px
+    }
+    footer {
+      background: url('img/headerbgdark.png');
+      border-top: 1px solid black;
+      position: relative;
+      clear:both;
+      margin-top: -200px;
+      min-height: 200px
+    }
+}
+
+@media (max-width: 768px) {
+	.navbar {
+		background: url('img/headerbgdark.png');
+		min-height: 60px;
+	}
+	.nav {
+		margin-top: 32px; /* this is a faux center fix for the nav options - adjust this if you wish to change the logo height or the font of the menu items */
+	}
+	body {
+		margin-top: 65px; /* adjust this if the height of the menu bar changes */
+	}
+        body > .container {
+        overflow:auto;
+        padding-bottom: 400px
+        }
+        footer {
+          background: url('img/headerbgdark.png');
+          border-top: 1px solid black;
+          position: relative;
+          clear:both;
+          margin-top: -400px;
+          min-height: 400px
+        }
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html, body {
+  height: 100%;
+}
+
+
+footer.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  min-height: 100%;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+code {
+  font-size: 80%;
+}
+
+body {
+	color: #cccccc;
+	background: url('img/bg.png');
+	font-family: 'Open Sans', sans-serif;
+	word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #ffffff;
+	margin-bottom: 15px;
+	font-weight: 400;
+}
+
+h2 {
+	line-height: 1.25em;
+	font-size: 26px;
+}
+
+a {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #cccccc;
+}
+
+table .label {
+	background: none;
+	padding: 7px;
+	line-height: normal;
+	text-shadow: none;
+}
+
+tr {
+	border-bottom: 1px solid #cccccc;
+}
+
+td {
+	padding: 5px 20px;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 26px;
+}
+
+dd {
+	margin-bottom: 15px;
+	margin-left: 26px;
+}
+
+ul, ol {
+	margin: 0 0 10px 0;
+}
+
+ol, ul {
+	list-style-position: inside;
+	margin-left: 21px;
+}
+
+pre {
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+code {
+	white-space: pre-wrap;
+}
+
+header {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+input[type=submit] {
+	font-size: 12px;
+	padding: 10px 20px 10px 20px;
+	margin-top: 5px;
+	border: 1px solid #2aa5c8;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background: #2aa5c8;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+input[type=submit]:hover {
+	background: #218ba8;
+}
+
+.clear {
+	clear: both;
+}
+
+.clear-right {
+	clear: right;
+}
+
+.clear-left {
+	clear: left;
+}
+
+.img-marged {
+	margin: 10px;
+}
+
+.panel-body {
+	color: #000000;
+}
+
+.panel-body h4 {
+	color: #000000;
+}
+
+.panel-body a{
+	color: #0000ff;
+}
+
+.pager li > a {
+  background-color: transparent;
+  color: #ccc;
+  border: 1px solid #ccc;
+}
+.pager li > a:hover,
+.pager li > a:focus {
+  background-color: #000;
+  color: #fff;
+}
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  color: #555;
+  cursor: not-allowed;
+  background-color: transparent;
+  border: 1px solid #555;
+}
+.panel-primary {
+  border-color: #8B2A18;
+}
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #D70000;
+  border-color: #8B2A18;
+}
+.panel-primary > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #8B2A18;
+}
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #8B2A18;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #D70000;
+  border-color: #D70000;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #B90000;
+  border-color: #B90000;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #FF6464;
+  border-color: #FF6464;
+}
+.btn-primary .badge {
+  color: #D70000;
+  background-color: #fff;
+}
+.dropdown-menu {
+  background: url('img/headerbgdark.png');
+}
+.dropdown-menu > li > a {
+  color: #ccc;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #fff;
+  background-color: #000;
+  opacity: 0.5;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	opacity: 0.5;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	opacity: 0.5;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.list-group-item {
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: transparent;
+	border: 0 none;
+	padding: 2px 4px;
+    margin-bottom: -1px;
+}
+a.list-group-item:hover, a.list-group-item:focus {
+  color: #fff;
+  background-color: #000;
+  opacity: 0.5;
+  border: 0 none;
+}
+a.list-group-item {
+    color: #fff;
+}

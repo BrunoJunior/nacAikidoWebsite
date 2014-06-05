@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /photos/
+Disallow: /bootstrap/
+Disallow: /menu/
+Disallow: /policies/
+
+Sitemap: http://www.example.com/sitemap.xml
